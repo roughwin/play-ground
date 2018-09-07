@@ -1,16 +1,16 @@
 const spawn = require("child_process").spawn
 
 function cli(cmd, ...args) {
-  const xxx = spawn(cmd, args);
+  const s = spawn(cmd, args);
   return new Promise(function (resolve, reject) {
     let result = '';
-    xxx.stdout.on('data', (d) => {
+    s.stdout.on('data', (d) => {
       result += d;
     });
-    xxx.stderr.on('data', (d) => {
-      reject('standard error output: \n' + d)
+    s.stderr.on('data', (d) => {
+      reject(d.toString())
     });
-    xxx.on('exit', (code, signal) => {
+    s.on('exit', (code, signal) => {
       resolve(result)
     });
   });
@@ -18,7 +18,7 @@ function cli(cmd, ...args) {
 
 
 !(async function () {
-  const a = await cli('echo', ['status']);
+  const a = await cli('git', ['sdf']);
   console.log(a)
 })()
 
