@@ -11,10 +11,16 @@ const c = {
   get: 0,
 };
 
+let rrr;
 const rule = [a, b, c];
+let stack = [];
 function genNum() {
-  let num;
-  num = Math.ceil(Math.random() * 100);
+  let num = Math.ceil(Math.random() * 100);
+  if (rrr) {
+    while (num === undefined || stack.includes(num)) {
+      num = Math.ceil(Math.random() * 100);
+    }
+  }
   return num;
 }
 
@@ -27,14 +33,28 @@ function inRange(r, num) {
 }
 
 
-for (let i = 0; i < 100000; i++) {
-  const x = genNum();
-  for (const r of rule) {
-    if (inRange(r.range, x)) {
-      // stack.push(x);
-      r.get++;
+function test() {
+  for (let j = 0; j < 100000; j++) {
+    const len = Math.ceil(Math.random() * 100);
+    stack = [];
+    for (let i = 0; i < len; i++) {
+      const x = genNum();
+      for (const r of rule) {
+        if (inRange(r.range, x)) {
+          stack.push(x);
+          r.get++;
+        }
+      }
     }
   }
+  const result = rule.map(x => x.get);
+  
+  const sum = result.reduce((s, cur) => (s + cur), 0)
+  console.log(result.map(x => x/sum));
 }
 
-console.log(rule.map(x => x.get))
+
+rrr = false;
+test();
+rrr = true;
+test();
