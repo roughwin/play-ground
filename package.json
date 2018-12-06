@@ -1,20 +1,17 @@
 {
   "dependencies": {
-    "@reactivex/rxjs": "^6.3.3",
     "babel": "^6.23.0",
     "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
-    "carlo": "^0.9.7",
     "curl-parser-js": "^0.0.3",
     "curlconverter": "^2.2.0",
     "lodash": "^4.17.10",
     "ndb-node-pty-prebuilt": "^0.8.0",
     "node-lame": "^1.1.0",
-    "puppeteer": "^1.4.0",
+    "puppeteer-core": "^1.4.0",
     "request": "^2.85.0",
     "request-promise": "^4.2.2",
-    "rxjs": "^6.3.3",
-    "rxjs-compat": "^6.3.3"
+    "rxjs": "^6.3.3"
   }
 }

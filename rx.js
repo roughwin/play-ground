@@ -1,11 +1,26 @@
-var Observable = require('rxjs/Observable').Observable;
-// 使用适合的方法在 Observable 上打补丁
-require('rxjs/add/observable/of');
-require('rxjs/add/operator/map');
-require('rxjs/add/operator/filter');
+const {
+  Observable,
+  Subject,
+  ReplaySubject,
+  interval,
+  from,
+  of,
+  range
+} = require('rxjs');
+const { map, filter, concatMap, concat, take, throttle, delay, flatMap} = require('rxjs/operators');
 
-var s = Observable.of(1,2,3).filter(x => x > 1).map(function (x) { return x + '!!!'; }); // 等等
+const s = interval(100).pipe(
+  filter(x => x > 1),
+  map(x => `${x} !!!`),
+  take(5)
+)
+const r = of(4, 2).pipe(
+  map(x => x * 2),
+  concatMap(x => of(x).pipe(delay(1000)))
+);
 
+s.pipe(
+  concat(r)
+).subscribe(console.log)
 
-
-s.subscribe(console.log)
+// s.subscribe(console.log
