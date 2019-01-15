@@ -1,6 +1,7 @@
 const {
   Observable,
   Subject,
+  AsyncSubject,
   ReplaySubject,
   interval,
   from,
@@ -19,8 +20,27 @@ const r = of(4, 2).pipe(
   concatMap(x => of(x).pipe(delay(1000)))
 );
 
-s.pipe(
-  concat(r)
-).subscribe(console.log)
+// s.pipe(
+//   concat(r)
+// ).subscribe(console.log)
 
-// s.subscribe(console.log
+const delayedRange = range(0, 5).pipe(delay(1000),)
+
+
+const mockUrls = from(['a', 'b', 'c']);
+
+const testObserver = mockUrls.pipe(
+  map(a => (a + a)),
+  concatMap(async (x) => {
+    await sleep(1000);
+    return x;
+  })
+);
+
+function sleep(ms) {
+  return new Promise((resolve) => {
+    setTimeout(resolve, ms);
+  });
+}
+
+testObserver.subscribe(console.log)
