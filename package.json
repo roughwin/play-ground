@@ -7,11 +7,13 @@
     "curl-parser-js": "^0.0.3",
     "curlconverter": "^2.2.0",
     "lodash": "^4.17.10",
+    "markdown-it": "^8.4.2",
     "ndb-node-pty-prebuilt": "^0.8.0",
     "node-lame": "^1.1.0",
     "puppeteer-core": "^1.4.0",
     "request": "^2.85.0",
     "request-promise": "^4.2.2",
-    "rxjs": "^6.3.3"
+    "rxjs": "^6.3.3",
+    "sqlite3": "^4.0.6"
   }
 }

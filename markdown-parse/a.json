@@ -1,0 +1,593 @@
+[
+  {
+    "type": "heading_open",
+    "tag": "h1",
+    "attrs": null,
+    "map": [
+      1,
+      2
+    ],
+    "nesting": 1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "#",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      1,
+      2
+    ],
+    "nesting": 0,
+    "level": 1,
+    "children": [
+      {
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "subject",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      }
+    ],
+    "content": "subject",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "heading_close",
+    "tag": "h1",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "#",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "heading_open",
+    "tag": "h2",
+    "attrs": null,
+    "map": [
+      3,
+      4
+    ],
+    "nesting": 1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "##",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      3,
+      4
+    ],
+    "nesting": 0,
+    "level": 1,
+    "children": [
+      {
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "note title",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      }
+    ],
+    "content": "note title",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "heading_close",
+    "tag": "h2",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "##",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "paragraph_open",
+    "tag": "p",
+    "attrs": null,
+    "map": [
+      4,
+      5
+    ],
+    "nesting": 1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      4,
+      5
+    ],
+    "nesting": 0,
+    "level": 1,
+    "children": [
+      {
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "<!-- note: id -->",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      }
+    ],
+    "content": "<!-- note: id -->",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "paragraph_close",
+    "tag": "p",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "blockquote_open",
+    "tag": "blockquote",
+    "attrs": null,
+    "map": [
+      5,
+      8
+    ],
+    "nesting": 1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": ">",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "paragraph_open",
+    "tag": "p",
+    "attrs": null,
+    "map": [
+      5,
+      8
+    ],
+    "nesting": 1,
+    "level": 1,
+    "children": null,
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      5,
+      8
+    ],
+    "nesting": 0,
+    "level": 2,
+    "children": [
+      {
+        "type": "code_inline",
+        "tag": "code",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "filepath",
+        "markup": "`",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      },
+      {
+        "type": "softbreak",
+        "tag": "br",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      },
+      {
+        "type": "code_inline",
+        "tag": "code",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": ":linenumber",
+        "markup": "`",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      },
+      {
+        "type": "softbreak",
+        "tag": "br",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      },
+      {
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "<!-- source code -->",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      }
+    ],
+    "content": "`filepath`\n`:linenumber`\n<!-- source code -->",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "paragraph_close",
+    "tag": "p",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 1,
+    "children": null,
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "blockquote_close",
+    "tag": "blockquote",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": ">",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "fence",
+    "tag": "code",
+    "attrs": null,
+    "map": [
+      8,
+      14
+    ],
+    "nesting": 0,
+    "level": 0,
+    "children": null,
+    "content": "let hello = {\n  a: 'abc',\n}\nconst a = b;\n",
+    "markup": "```",
+    "info": "javascript",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "paragraph_open",
+    "tag": "p",
+    "attrs": null,
+    "map": [
+      14,
+      17
+    ],
+    "nesting": 1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      14,
+      17
+    ],
+    "nesting": 0,
+    "level": 1,
+    "children": [
+      {
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "<!-- note content -->",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      },
+      {
+        "type": "softbreak",
+        "tag": "br",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      },
+      {
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "begin each line with two or more spaces.",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      },
+      {
+        "type": "hardbreak",
+        "tag": "br",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      },
+      {
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "changeline",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      }
+    ],
+    "content": "<!-- note content -->\nbegin each line with two or more spaces.  \nchangeline",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "paragraph_close",
+    "tag": "p",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "paragraph_open",
+    "tag": "p",
+    "attrs": null,
+    "map": [
+      18,
+      19
+    ],
+    "nesting": 1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "inline",
+    "tag": "",
+    "attrs": null,
+    "map": [
+      18,
+      19
+    ],
+    "nesting": 0,
+    "level": 1,
+    "children": [
+      {
+        "type": "text",
+        "tag": "",
+        "attrs": null,
+        "map": null,
+        "nesting": 0,
+        "level": 0,
+        "children": null,
+        "content": "<!-- end of note content -->",
+        "markup": "",
+        "info": "",
+        "meta": null,
+        "block": false,
+        "hidden": false
+      }
+    ],
+    "content": "<!-- end of note content -->",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "paragraph_close",
+    "tag": "p",
+    "attrs": null,
+    "map": null,
+    "nesting": -1,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  },
+  {
+    "type": "hr",
+    "tag": "hr",
+    "attrs": null,
+    "map": [
+      19,
+      20
+    ],
+    "nesting": 0,
+    "level": 0,
+    "children": null,
+    "content": "",
+    "markup": "***",
+    "info": "",
+    "meta": null,
+    "block": true,
+    "hidden": false
+  }
+]
