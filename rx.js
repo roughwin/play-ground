@@ -6,19 +6,60 @@ const {
   interval,
   from,
   of,
-  range
+  range,
 } = require('rxjs');
-const { map, filter, concatMap, concat, take, throttle, delay, flatMap} = require('rxjs/operators');
+const {
+  map, filter,
+  concatMap, concat,
+  take, throttle,
+  delay, flatMap,
+  retry, catchError,
+  tap, retryWhen,
+  repeatWhen, repeat,
+  delayWhen,
+} = require('rxjs/operators');
 
-const s = interval(100).pipe(
-  filter(x => x > 1),
-  map(x => `${x} !!!`),
-  take(5)
-)
-const r = of(4, 2).pipe(
-  map(x => x * 2),
-  concatMap(x => of(x).pipe(delay(1000)))
-);
+function sleep(ms) {
+  return new Promise((resolve) => {
+    setTimeout(resolve, ms);
+    console.log('sleeping', ms)
+  });
+}
+let f = 0;
+function mockreq(x) {
+  return new Promise(function(resolve, reject) {
+    if (x == 3) {
+      console.log('f ---->', f)
+      if (++f > 1) {
+        resolve(x);
+      }
+      setTimeout(() => {
+        reject('hello error');
+      }, 500);
+    } else {
+      resolve(x);
+    }
+  })
+}
+
+function mockfetch(x) {
+  return of(x).pipe(
+    map(mockreq),
+    flatMap(a => a),
+    tap(console.log),
+    retry(3)
+  ).toPromise();
+}
+
+!(async function x() {
+  const a = interval(300).pipe(
+    // take(5),
+    flatMap(mockfetch),
+    // tap(console.log)
+  )
+  await a.toPromise();
+})()
+
 
 // s.pipe(
 //   concat(r)
