@@ -20,10 +20,13 @@ async function asyncTimeout(func, m) {
   return result
 }
 
-!(async function name(params) {
-  const a = await asyncTimeout(async () => {
-    await sleep(2000)
-    return 'finish'
-  }, 1000)
-  console.log(a)
-})()
+const os = require('os');
+const netWorks = os.networkInterfaces();
+console.log(os.userInfo());
+// !(async function name(params) {
+//   const a = await asyncTimeout(async () => {
+//     await sleep(2000)
+//     return 'finish'
+//   }, 1000)
+//   console.log(a)
+// })()
