@@ -8,6 +8,7 @@
     "curlconverter": "^2.2.0",
     "lodash": "^4.17.10",
     "markdown-it": "^8.4.2",
+    "moment": "^2.24.0",
     "ndb-node-pty-prebuilt": "^0.8.0",
     "node-lame": "^1.1.0",
     "puppeteer-core": "^1.4.0",
