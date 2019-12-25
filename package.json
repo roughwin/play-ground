@@ -11,12 +11,15 @@
     "moment": "^2.24.0",
     "ndb-node-pty-prebuilt": "^0.8.0",
     "node-lame": "^1.1.0",
+    "omml2mathml": "^1.3.0",
     "puppeteer-core": "^1.4.0",
     "request": "^2.85.0",
     "request-promise": "^4.2.2",
     "rxjs": "^6.3.3",
     "shellwords": "^0.1.1",
     "sqlite3": "^4.0.6",
-    "web-push": "^3.3.3"
+    "web-push": "^3.3.3",
+    "xmldom": "^0.2.1",
+    "xslt-processor": "^0.11.5"
   }
 }
