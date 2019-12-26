@@ -1,1 +1,122 @@
-<mathdisplay="inline">Hello<msqrt><msup><mrow><mi>a</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>+</mo><msup><mrow><mi>b</mi></mrow><mrow><mn>2</mn></mrow></msup></msqrt></math>
+<?xml version="1.0" encoding="UTF-8"?>
+  
+    
+      
+        
+      
+    
+  
+  
+    
+      
+        
+        
+        
+        
+        
+      
+    
+  
+  
+    
+      
+        <meta name="generator" content="docx2html.xsl https://github.com/ottoville/DOCX2HTML.XSLT"/><article><hr class="section1"/><div class="section1"><p class="d7e42" pid="d7e42"><span class="" style="">Hello</span></p><p class="d7e50" pid="d7e50"><span class="" style="">1234</span></p><p class="d7e58" pid="d7e58" style=""><style>.d7e58 span {  }
+						.d7e58 td {
+			
+			 }
+		</style><span class="" style="">abc</span><span class="" style="">123</span></p><p class="d7e84" pid="d7e84" style=""><style>.d7e84 span {  }
+						.d7e84 td {
+			
+			 }
+		</style><span class="" style="">1223</span><span class="" style="">11</span></p><p class="d7e110" pid="d7e110" style=""><style>.d7e110 span {  }
+						.d7e110 td {
+			
+			 }
+		</style><span class="" style="">aaaa</span></p><p class="d7e132" pid="d7e132" style=""><style>.d7e132 span { text-decoration:underline; }
+						.d7e132 td {
+			
+			 }
+		</style><span class="" style="text-decoration:underline;">123</span></p><p class="d7e157" pid="d7e157" style=""><style>.d7e157 span { text-decoration:underline; }
+						.d7e157 td {
+			
+			 }
+		</style><br/></p><p class="d7e234" pid="d7e234"><br/></p>
+            
+            
+            
+          </div><style>div.section1 {width:NaNpt;min-height:NaNpt;padding:NaNpt NaNpt NaNpt NaNpt;
+			 }
+		</style></article><style>
+				.tab {display:inline-block;text-indent:0;}
+				ins {text-decoration:none;}
+				ul {list-style-position:inside}
+				ul&gt;li&gt;p:first-child {display:inline;}
+				ul.outsidee { list-style-position:outside} ul.outsidee&gt;li&gt;p:first-child { text-indent:0 !important;display:block}
+				ul&gt;li&gt;p:not(:first-child) { text-indent:0 }
+				ul, li { margin:0;padding:0 } li p {} input[type="text"] {height:18px} input[type="checkbox"] { margin:0 } p {margin:0;position:relative}
+				article {
+					counter-reset: page;
+				}
+				article&gt;div {
+					counter-increment: page;
+					display:block; margin-top:0.1cm;border-width:1px;border-style:solid;position:relative;}
+				article&gt;div output.pagenumber::before {
+					content: counter(page);
+				}
+				article&gt;div&gt;header.even {
+					display:none;
+				}
+				article&gt;div:nth-of-type(even)&gt;header.even {
+					display:block;
+				}
+				article&gt;div:nth-of-type(even)&gt;header.even {
+					display:block;
+				}
+				article&gt;div:nth-of-type(even)&gt;header.even+header.default {
+					display:none;
+				}
+				article&gt;div&gt;header.first {
+					display:none;
+				}
+				article&gt;hr[data-firstheader="true"]+div&gt;header.first {
+					display:block;
+				}
+				article&gt;hr[data-firstheader="true"]+div&gt;header.first ~ header {
+					display:none !important;
+				}
+				
+				article&gt;div&gt;footer {
+					position:absolute;
+					bottom:0;
+				}
+				article&gt;div&gt;footer.even {
+					display:none;
+				}
+				article&gt;div:nth-of-type(even)&gt;footer.even {
+					display:block;
+				}
+				article&gt;div:nth-of-type(even)&gt;footer.even {
+					display:block;
+				}
+				article&gt;div:nth-of-type(even)&gt;footer.even+footer.default {
+					display:none;
+				}
+				article&gt;div&gt;footer.first {
+					display:none;
+				}
+				article&gt;hr[data-firstheader="true"]+div&gt;footer.first {
+					display:block;
+				}
+				article&gt;hr[data-firstheader="true"]+div&gt;footer.first ~ footer {
+					display:none !important;
+				}
+				</style><script>
+				
+				var tabs=document.getElementsByClassName('tab');
+				for(t=0;t&lt;tabs.length;t++) {
+					var tabinterval=parseFloat(tabs[t].style.minWidth);
+					var realwidth=parseFloat(window.getComputedStyle(tabs[t]).width)
+					if(realwidth&gt;tabinterval) {
+						var tabnumber=Math.ceil(realwidth/tabinterval);
+						for(tt=tabnumber-1,next=tabs[t].nextSibling;	tt&gt;0&amp;&amp;next&amp;&amp;next.classList.contains('tab')&amp;&amp;!next.firstChild	;next=next.nextSibling,tt--) {
+							next
